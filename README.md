@@ -1,5 +1,5 @@
 # Algorithms
-Experiments with RUST and algorithms
+Experiments with RUST and algorithms.
 
 [![Verify](https://github.com/andrewDubyk/algorithms/actions/workflows/verify.yaml/badge.svg)](https://github.com/andrewDubyk/algorithms/actions/workflows/verify.yaml)
 
@@ -7,20 +7,19 @@ Experiments with RUST and algorithms
 Simple library with tests for next alorithms:
 
 - Add two numbers which are represented as linkedlist data structure;
-- Count number of `boomerangs` in vector of points [(x,y)], where `x` and `y` are coordinates which are represented in a coordinate plane.
+- Count number of `boomerangs` in vector of points [(x,y)], where `x` and `y` are coordinates which are represented in a coordinate plane. A boomerang is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the
+tuple matters).
 
 
-## CI/CD
+## CI/CD - formatting, linting, testing, build.
 
-CI/CD checks includes formatting, linting, testing, build.
-
-Latest release CI/CD status:
+Latest release status:
 
 Platform | CI Status
 ---------|:---------
-OSX      | 
+OSX      | [![Release](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml/badge.svg)](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml)
 Linux    | [![Release](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml/badge.svg)](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml)
-Windows  | 
+Windows  | [![Release](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml/badge.svg)](https://github.com/andrewDubyk/algorithms/actions/workflows/release.yaml)
 
 For more details check https://github.com/andrewDubyk/algorithms/actions
 
