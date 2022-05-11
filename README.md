@@ -7,7 +7,7 @@ Experiments with RUST and algorithms.
 Simple library with tests for next alorithms:
 
 - Add two numbers which are represented as linkedlist data structure;
-- Count number of `boomerangs` in vector of points [(x,y)], where `x` and `y` are coordinates which are represented in a coordinate plane. A boomerang is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the
+- Count number of `boomerangs` in vector of points [(x,y)], where `x` and `y` are coordinates which are represented in a coordinate plane. A boomerang is a tuple of points `(i, j, k)` such that the distance between `i` and `j` equals the distance between `i` and `k` (the order of the
 tuple matters).
 
 
