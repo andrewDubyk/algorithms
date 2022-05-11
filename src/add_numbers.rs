@@ -15,15 +15,9 @@ pub fn add_two_lists(mut l1: LinkedList<i32>, mut l2: LinkedList<i32>) -> Linked
 
     while !l1.is_empty() || !l2.is_empty() || carry != 0 {
         // Get last element from first list
-        let n1 = match l1.pop_back() {
-            Some(val) => val,
-            None => 0,
-        };
+        let n1 = l1.pop_back().unwrap_or(0);
         // Get last element from second list
-        let n2 = match l2.pop_back() {
-            Some(val) => val,
-            None => 0,
-        };
+        let n2 = l2.pop_back().unwrap_or(0);
 
         sum = n1 + n2 + carry;
         carry = sum / 10;
