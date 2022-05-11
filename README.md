@@ -11,7 +11,7 @@ Simple library with tests for next alorithms:
 tuple matters).
 
 
-## CI/CD - formatting, linting, testing, build.
+## CI/CD - formatting, linting, testing, build
 
 Latest release status:
 
