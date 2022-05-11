@@ -2,6 +2,8 @@
 name = "algorithms"
 version = "0.1.0"
 edition = "2021"
+authors = ["Andrii D"]
+description = "Experiments with RUST and algorithms"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
